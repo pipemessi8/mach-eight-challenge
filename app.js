@@ -28,7 +28,6 @@ const main = () => {
   try {
     const elements = process.argv[2].split(",").map((num) => parseInt(num));
     const sum = parseInt(process.argv[3]);
-    const test = parseInt(process.argv[3]);
     findPairs(elements, sum);
   } catch (error) {
     console.log(`Some parameters could't be processed`);
